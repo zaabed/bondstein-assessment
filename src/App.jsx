@@ -1,5 +1,6 @@
 import Banner from "./components/Banner/Banner"
 import Navbar from "./components/Navbar/Navbar"
+import ServicesSection from "./components/ServicesSection/ServicesSection"
 
 function App() {
 
@@ -8,6 +9,8 @@ function App() {
 
       <Navbar></Navbar>
       <Banner></Banner>
+      <ServicesSection></ServicesSection>
+
     </div>
   )
 }
