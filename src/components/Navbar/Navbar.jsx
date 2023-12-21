@@ -27,7 +27,7 @@ const Navbar = () => {
                 <div className="navbar-end gap-4 mb-3">
                     <input type="text" placeholder="Search" className="input input-bordered w-24 rounded-full md:w-auto" />
                     <a className="btn bg-[#3D00B7] text-white rounded-full">Upload</a>
-                    <a className=" btn rounded-full text-[#3D00B7] text-nowrap  ">Connect Wallet</a>
+                    <a className=" border-2 rounded-full text-[#3D00B7] text-nowrap p-2 border-[#3D00B7] font-medium">Connect Wallet</a>
                 </div>
             </div>
             < hr />
