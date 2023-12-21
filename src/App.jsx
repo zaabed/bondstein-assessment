@@ -1,4 +1,6 @@
 import Banner from "./components/Banner/Banner"
+import CollectionFeaturesSection from "./components/CollectionFeaturesSection/CollectionFeaturesSection"
+import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import ServicesSection from "./components/ServicesSection/ServicesSection"
 import TopCollectionSection from "./components/TopCollectionSection/TopCollectionSection"
@@ -12,6 +14,8 @@ function App() {
       <Banner></Banner>
       <ServicesSection></ServicesSection>
       <TopCollectionSection></TopCollectionSection>
+      <CollectionFeaturesSection></CollectionFeaturesSection>
+      <Footer></Footer>
 
     </div>
   )

@@ -2,7 +2,7 @@
 
 const ServicesSection = () => {
     return (
-        <div className="bg-[#D9E0EC] p-14  mt-20">
+        <div className="bg-[rgb(246,246,247)] p-14  mt-20">
             <div className="max-w-screen-xl mx-auto grid lg:grid-cols-3 sm:grid-cols-1 gap-10">
                 <div>
                     <h4 className="font-extrabold text-2xl">The amazing NFT art <br /> of the world here</h4>
