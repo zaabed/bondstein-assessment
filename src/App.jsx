@@ -1,5 +1,6 @@
 import Banner from "./components/Banner/Banner"
 import CollectionFeaturesSection from "./components/CollectionFeaturesSection/CollectionFeaturesSection"
+import CreateNftsSection from "./components/CreateNftsSection/CreateNftsSection"
 import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import ServicesSection from "./components/ServicesSection/ServicesSection"
@@ -15,6 +16,7 @@ function App() {
       <ServicesSection></ServicesSection>
       <TopCollectionSection></TopCollectionSection>
       <CollectionFeaturesSection></CollectionFeaturesSection>
+      <CreateNftsSection></CreateNftsSection>
       <Footer></Footer>
 
     </div>
