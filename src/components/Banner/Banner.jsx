@@ -1,4 +1,7 @@
 import img1 from '../../assets/image/banner-img-1.avif';
+import img6 from '../../assets/image/img6.jpeg';
+import img4 from '../../assets/image/img4.webp';
+
 
 
 const Banner = () => {
@@ -27,13 +30,31 @@ const Banner = () => {
                 </div>
             </div>
 
-            <div>
-                <img src={img1} alt="" className='rounded-lg ' />
+            <div className="relative">
+                {/* <!-- Background image --> */}
+                <img src={img6} alt="Background Image" className="w-full h-full object-cover rounded-3xl" />
+
+                {/* <!-- Overlay image --> */}
+                <img src={img4} alt="Overlay Image" className="absolute top-0 right-10 w-full h-72 object-cover rounded-3xl" />
+
+                <img src={img1} alt="Overlay Image" className="absolute top-0 right-20 w-full h-64 object-cover rounded-3xl " />
+                <div className="absolute h-14 w-14 -left-28 top-28 bg-[#FFE0D4] rounded-full p-10 ...">
+                </div>
+
+                {/* <!-- Text overlay --> */}
+                <h1 className="absolute top-14 left-20 transform -translate-x-1/2 -translate-y-1/2 text-white text-2xl font-bold ">
+                    Abstr Gradient NFT
+                    <div className='flex justify-between mt-4'>
+                        <div className="avatar">
+                            <div className="w-8 rounded-full">
+                                <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                            </div>
+                        </div>
+                        <p>Arkhan17</p>
+                    </div>
+                </h1>
             </div>
-
         </div>
-
-
     );
 };
 

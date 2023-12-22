@@ -2,6 +2,11 @@ import filter from '../../assets/image/filter.png';
 import banner from '../../assets/image/banner-img-1.avif';
 import ethereum from '../../assets/image/ethereum-50.png';
 import man from '../../assets/image/man-avatar.jpg';
+import img6 from '../../assets/image/img6.jpeg';
+import img7 from '../../assets/image/img7.avif';
+import img8 from '../../assets/image/img8.jpg';
+import img9 from '../../assets/image/banner-img-1.avif';
+import img10 from '../../assets/image/img10.avif';
 
 const DiscoverNfts = () => {
     return (
@@ -32,6 +37,511 @@ const DiscoverNfts = () => {
                     <div className="card w-80 bg-base-100 shadow-xl">
                         <div className="relative ...">
                             <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img6} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img7} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img8} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img6} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img9} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img8} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img7} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img7} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img8} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img9} alt="" /></figure>
+                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
+                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                </div>
+                            </div></div>
+                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
+                                <div className="w-10 rounded-full">
+                                    <img src={man} />
+                                </div>
+                            </div></div>
+                        </div>
+
+                        <div className="card-body">
+                            <h2 className="card-title font-bold">
+                                ArtCrypto
+                            </h2>
+                            <div className='flex justify-between items-center'>
+                                <div className="flex items-center gap-2">
+                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
+                                    <p className='text-[#00AC4F]'>0.25ETH</p>
+                                </div>
+                                <div>
+                                    <p className='text-[#00AC4F]'>1 of 321</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr className='m-5' />
+                        <div className='flex justify-between mb-6 p-5'>
+                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
+                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
+                        </div>
+                    </div>
+                    <div className="card w-80 bg-base-100 shadow-xl">
+                        <div className="relative ...">
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img10} alt="" /></figure>
                             {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
                             <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
                                 <div className="w-10 rounded-full">
@@ -123,7 +633,7 @@ const DiscoverNfts = () => {
                     </div>
                     <div className="card w-80 bg-base-100 shadow-xl">
                         <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img6} alt="" /></figure>
                             {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
                             <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
                                 <div className="w-10 rounded-full">
@@ -169,7 +679,7 @@ const DiscoverNfts = () => {
                     </div>
                     <div className="card w-80 bg-base-100 shadow-xl">
                         <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img7} alt="" /></figure>
                             {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
                             <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
                                 <div className="w-10 rounded-full">
@@ -215,513 +725,7 @@ const DiscoverNfts = () => {
                     </div>
                     <div className="card w-80 bg-base-100 shadow-xl">
                         <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
-                            {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
-                            <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-12 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-20 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                                </div>
-                            </div></div>
-                            <div className="absolute h-14 w-14 left-28 -bottom-4 ..."><div className="avatar">
-                                <div className="w-10 rounded-full">
-                                    <img src={man} />
-                                </div>
-                            </div></div>
-                        </div>
-
-                        <div className="card-body">
-                            <h2 className="card-title font-bold">
-                                ArtCrypto
-                            </h2>
-                            <div className='flex justify-between items-center'>
-                                <div className="flex items-center gap-2">
-                                    <img src={ethereum} alt="" className='h-5 text-[#00AC4F]' />
-                                    <p className='text-[#00AC4F]'>0.25ETH</p>
-                                </div>
-                                <div>
-                                    <p className='text-[#00AC4F]'>1 of 321</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr className='m-5' />
-                        <div className='flex justify-between mb-6 p-5'>
-                            <p className=" text-center p-1 rounded-3xl bg-[#DCDCDC] font-bold ">3h 50m 2s left</p>
-                            <p className=" text-center rounded-3xl font-medium ">Place a bid</p>
-                        </div>
-                    </div>
-                    <div className="card w-80 bg-base-100 shadow-xl">
-                        <div className="relative ...">
-                            <figure><img className='h-60 rounded-3xl p-4 ' src={banner} alt="" /></figure>
+                            <figure><img className='h-60 rounded-3xl p-4 ' src={img8} alt="" /></figure>
                             {/* <img src={banner} alt="" className='h-60 rounded-lg p-4' /> */}
                             <div className="absolute h-14 w-14 left-6 -bottom-4 ..."><div className="avatar">
                                 <div className="w-10 rounded-full">
